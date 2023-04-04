@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class first {
-           // Метод, который добавляет номера в книгу
            public static void addNumber(String key, int value, Map<String, ArrayList<Integer>> map){
             if (map.containsKey(key)) {
                 map.get(key).add(value);
@@ -16,7 +15,6 @@ public class first {
             }
     
         }
-        // Метод, который печатает список контактов
         public static void printBook(Map<String, ArrayList<Integer>> map){
             for (var item : map.entrySet()) {
                 String phones = "";
